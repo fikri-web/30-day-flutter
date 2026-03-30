@@ -16,7 +16,7 @@ Sepanjang 30 hari, saya akan membangun 4 aplikasi dengan tingkat kesulitan yang 
 
 ### 🌙 Project 1: Midnight Lines
 - [x] **Day 1:** Inisialisasi proyek, pembersihan *boilerplate*, dan setup *dark theme*.
-- [ ] **Day 2:** Membuat *Custom Widget* kartu jurnal.
+- [x] **Day 2:** Membuat *Custom Widget* kartu jurnal.
 - [ ] **Day 3:** Membuat form input teks *multiline*.
 - [ ] **Day 4:** Implementasi *state* dasar untuk menyimpan teks.
 - [ ] **Day 5:** Menambahkan fitur *mood selector* dinamis.
