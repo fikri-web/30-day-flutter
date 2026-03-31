@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'widgets/journal_card.dart';
+import 'screens/write_journal.dart';
 
 void main() {
   runApp(const MidnightLinesApp());
@@ -56,6 +57,19 @@ class BerandaJurnal extends StatelessWidget {
             mood: '🎧', 
             cerita: 'Terlalu banyak pikiran. Memutuskan untuk keluar sebentar cari angin malam. Besok harus lebih produktif.')
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.white12, // Warna gelap estetik
+        onPressed: () {
+          // Logika Navigasi untuk pindah halaman
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const WriteJournalPage(),
+            ),
+          );
+        },
+        child: const Icon(Icons.edit, color: Colors.white70),
       ),
     );
   }
